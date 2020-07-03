@@ -53,18 +53,18 @@ const Description = styled.p`
 
 const Poster = styled.div`
     width: 100%;
-    height: 60%;
+    height: 80%;
     background-color: transparent;
     background-image: url(${props => props.bg});
     background-size: cover;
     background-position: center center;
 `;
 
-const Suggestions = styled.div`
-    width: 100%;
-    height: 100%;
-    flex-direction: row;
-`;
+// const Suggestions = styled.div`
+//     width: 100%;
+//     height: 40%;
+//     flex-direction: row;
+// `;
 
 export default () => {
     const { id } = useParams();

@@ -42,12 +42,12 @@ const Subtitle = styled.h3`
     font-size: 35px;
 `;
 
-const Loading = styled.div`
-    font-size: 18px;
-    opacity: 0.5;
-    font-weight: 500;
-    margin-top: 10px;
-`;
+// const Loading = styled.div`
+//     font-size: 18px;
+//     opacity: 0.5;
+//     font-weight: 500;
+//     margin-top: 10px;
+// `;
 
 const Movies = styled.div`
     display: grid;
